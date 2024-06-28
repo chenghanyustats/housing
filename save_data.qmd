@@ -2,7 +2,7 @@
 title: "Nominal house prices data in Luxembourg - Data cleaning"
 author: "Cheng-Han Yu"
 format: html
-editor: visual
+editor: source
 date: today
 ---
 
@@ -27,7 +27,7 @@ The function below uses the permanent URL from the Open Data  Portal to access t
 
 
 ```{r}
-#| eval: false
+#| eval: true
 get_raw_data <- function(url = "https://is.gd/1vvBAc"){
 
   raw_data <- tempfile(fileext = ".xlsx")
@@ -215,7 +215,7 @@ We now save the dataset in a folder for further analysis (keep chunk option to
 `eval = FALSE` to avoid running it when knitting):
 
 ```{r}
-#| eval: false
+#| eval: true
 write.csv(commune_level_data,
           "datasets/house_prices_commune_level_data.csv",
           row.names = FALSE)
