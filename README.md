@@ -1,8 +1,8 @@
-# Housing data for Luxembourg
+# How to run
 
-These scripts for the R programming language download nominal
-housing prices from the *Observatoire de l'Habitat* and
-tidy them up into a flat data frame.
-
-- save_data.R: downloads, cleans, and creates data frames from the data
-- analysis.R: creates plots of the data
+- Clone the repository: `git clone git@github.com:chenghanyustats/housing.git`
+- Switch to the `pipeline` branch: `git checkout pipeline`
+- Start an R session in the folder and run `renv::restore()` 
+   to install the project’s dependencies.
+- Run the pipeline with `targets::tar_make()`.
+- Checkout `analysis.html` for the output.

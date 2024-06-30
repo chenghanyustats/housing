@@ -1,0 +1,11 @@
+---
+title: "mtcars is the best data set"
+author: "mtcars enjoyer"
+date: today
+---
+
+## Load the summary
+
+```{r}
+tar_read(summary_mtcars)
+```

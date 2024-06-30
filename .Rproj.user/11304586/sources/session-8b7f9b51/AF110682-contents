@@ -1,16 +1,10 @@
 ---
 title: "Nominal house prices data in Luxembourg"
 author: "Cheng-Han Yu"
-date: today
+date: "`r Sys.Date()`"
 ---
 
 Let’s load the datasets (the Laspeyeres price index is already computed):
-
-```{r}
-#| echo: false
-library(housing)
-library(targets)
-```
 
 ```{r}
 tar_load(commune_data)

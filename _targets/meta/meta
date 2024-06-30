@@ -1,0 +1,11 @@
+name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
+.Random.seed|object|83db93a7809c139e|||||||||||||||
+analyse_data|stem|00c8887ec0a7fa1f|aa098eb975cb9494|97ecb6469939494a|284124902|analysis_files*analysis.html*analysis.qmd|t19904.6706074955s|4f92f24efa3d1b58|1308175|file|local|vector|||2.814||
+analysis|stem||8c68a327f86ccff1|97ecb6469939494a|-826194222||t19904.6626490021s||0|file|local|vector|||1.016||Error running quarto cli.Caused by error System command quarto failed
+commune_data|stem|5432576f6b94bde1|a1e240776eea71db|7adee70483a3286f|1786433508||t19904.6576678208s|0b5fea7bda2af394|33006|rds|local|vector|||0.014||
+commune_level_data|stem|2f79f4e31a94a63c|83cb195445d4c802|db33b6bcecfa8e81|-104775908||t19904.657113824s|627ad9bf8adab0bd|18665|rds|local|vector|||0.164||
+communes|stem|78fba5e57c91b1ed|94f7513b0914f0c7|2c530c1562a7fbd1|2071798726||t19904.6576675691s|9b43f3e0f172ee04|111|rds|local|vector|||0.164||
+country_data|stem|83fe22d6b5cbe156|53b2ea9b80c1f401|00c288d023ec287e|1190291426||t19904.6576678885s|7647d5f9c6764936|689|rds|local|vector|||0.004||
+country_level_data|stem|ce5bb408c86d1c0b|479f4ed20c7cab34|db33b6bcecfa8e81|1480348312||t19904.6571139527s|4673857066106041|491|rds|local|vector|||0.001||
+read_data|function|be879085b6a633c8|||||||||||||||
+save_plot|function|b8645e0b5439b920|||||||||||||||

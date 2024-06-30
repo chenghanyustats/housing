@@ -1,0 +1,104 @@
+fusen::inflate(
+flat_file = "dev/flat_save_data.qmd",
+vignette_name = "Get started",
+check = TRUE
+)
+fusen::inflate(
+flat_file = "dev/flat_save_data.qmd",
+vignette_name = "Get started",
+check = TRUE
+)
+fusen::inflate(
+flat_file = "dev/flat_save_data.qmd",
+vignette_name = "Get started",
+check = TRUE
+)
+library(housing)
+session_info()
+# Run but keep eval=FALSE to avoid infinite loop
+# Execute in the console directly
+fusen::inflate(flat_file = "dev/flat_save_data.qmd",
+vignette_name = "dev-save_data",
+overwrite = T)
+local({
+knitr::knit("vignettes/dev-save_data.Rmd", output = tempfile())
+usethis::use_data(commune_level_data, overwrite = TRUE)
+usethis::use_data(country_level_data, overwrite = TRUE)
+usethis::use_data(communes, overwrite = TRUE)
+})
+fusen::inflate(flat_file = "dev/data_doc.Rmd",
+vignette_name = NA,
+overwrite = T)
+?remotes::install_github
+library(housing)
+?devtools::build
+?devtools::install_local
+usethis::use_github_action_check_standard()
+?usethis::use_github_action\
+?usethis::use_github_action
+# set and try pkgdown documentation website
+usethis::use_pkgdown()
+pkgdown::build_site()
+# Run but keep eval=FALSE to avoid infinite loop
+# Execute in the console directly
+fusen::inflate(flat_file = "dev/flat_save_data.qmd",
+vignette_name = "dev-save_data",
+overwrite = T)
+# Run but keep eval=FALSE to avoid infinite loop
+# Execute in the console directly
+fusen::inflate(flat_file = "dev/flat_save_data.qmd",
+vignette_name = "dev-save_data",
+overwrite = T)
+test_that("Empty data", {
+expect_error(
+# this subsetting results in an empty dataset
+get_laspeyeres(subset(mtcars, am == 2))
+)
+})
+# Run but keep eval=FALSE to avoid infinite loop
+# Execute in the console directly
+fusen::inflate(flat_file = "dev/flat_save_data.qmd",
+vignette_name = "dev-save_data",
+overwrite = T)
+# Run but keep eval=FALSE to avoid infinite loop
+# Execute in the console directly
+fusen::inflate(flat_file = "dev/flat_save_data.qmd",
+vignette_name = "dev-save_data",
+overwrite = T)
+getwd()
+remotes::install_github("chenghanyustats/housing@fusen)
+)
+remotes::install_github("chenghanyustats/housing@fusen")
+library(housing)
+targets::tar_script()
+?data
+?utils::data
+rm(list = ls())
+?knit_child
+?knitr::knit_child
+library(targets)
+library(tarchetypes)
+tar_make()
+tar_make()
+tar_make()
+tar_make()
+tar_make()
+tar_make()
+tar_make()
+tar_make()
+library(quarto)
+install.packages("quarto")
+library(quarto)
+tar_make()
+library(quarto)
+tar_make()
+tar_make()
+tar_make()
+tar_make()
+tar_make()
+tar_make()
+tar_make()
+tar_make()
+tar_make()
+tar_make()
+renv::init()
