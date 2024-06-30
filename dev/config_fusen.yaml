@@ -18,7 +18,9 @@ flat_save_data.qmd:
   R:
   - R/get_raw_data.R
   - R/get_laspeyeres.R
-  tests: tests/testthat/test-get_raw_data.R
+  tests:
+  - tests/testthat/test-get_raw_data.R
+  - tests/testthat/test-get_laspeyeres.R
   vignettes: vignettes/dev-save_data.Rmd
   inflate:
     flat_file: dev/flat_save_data.qmd

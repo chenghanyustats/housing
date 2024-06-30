@@ -16,6 +16,12 @@ get_laspeyeres <- function(dataset){
 
   which_dataset <- deparse(substitute(dataset))
 
+  stopifnot("dataset must be one of `commune_level_data`
+             or `country_level_data`" =
+              (which_dataset %in% c(
+                 "commune_level_data",
+                 "country_level_data")))
+    
   group_var <- if(grepl("commune", which_dataset)){
                  quo(locality)
                } else {

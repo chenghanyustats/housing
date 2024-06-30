@@ -13,6 +13,10 @@ raw_data <- get_raw_data(url = "https://github.com/b-rodrigues/rap4all/raw/maste
 
 flat_data <- clean_raw_data(raw_data)
 
-testthat::expect_true(
-            all(communes %in% unique(flat_data$locality))
-                      )
+test_that("Check if all communes are accounted for", {
+
+  expect_true(
+    all(communes %in% unique(flat_data$locality))
+  )
+
+})
